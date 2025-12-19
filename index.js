@@ -8,7 +8,7 @@ function combineUsers(...args) {
 
   // Loop through args 
   args.forEach(function (userArray) {
-    // Merge each array into users using spread operator
+    // Merge each array into users
     combinedObject.users.push(...userArray);
   });
 
